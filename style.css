@@ -1,0 +1,74 @@
+body{
+  background-color: #515c78;
+}
+.calculator {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3%;
+  width:100vw;
+ 
+}
+#delete{
+  background-color: #647299;
+  color:white;
+  font-weight: bold;
+}
+
+.display {
+  width: 20%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 20px;
+  height:8vh;
+  border-radius: 4px;
+  text-align: right;
+  background-color: #181F32;
+  color:white;
+}
+label{
+  font-size: 16px;
+  font-weight:700;
+}
+.buttons {
+  display: flex;
+  padding:5px;
+  width:21%;
+  background-color: #252D44;
+  flex-direction: column; /* Align the button groups in a column */
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
+button {
+  padding: 12px;
+  margin:2px;
+  font-size: 14px;
+  width:100%;
+  background-color: #EAE3DB;
+  color:#3B4664;
+  border:none;
+  margin:5px;
+  border-radius: 7px;
+}
+.button-one, .button-two, .button-three, .button-four {
+   display: flex;
+   justify-content: flex-start;
+   
+}
+.button-five button{
+   width:45%;
+}
+
+
+
+.reset {
+  grid-column: 1 / span 2;
+  background-color: #647299;
+  color:white;
+  font-weight: bold;
+}
+
+.equal {
+  grid-column: 2 / span 2;
+  background-color: #D13F30;
+  color:white;
+}
